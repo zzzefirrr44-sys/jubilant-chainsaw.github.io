@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Резюме — Шкляр Захарій</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* ====== Горизонтальне меню ====== */
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: 15px 25px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        /* ====== Основний контейнер ====== */
+        .container {
+            width: 900px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* ====== Шапка ====== */
+        .header {
+            text-align: center;
+        }
+
+        .photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+
+        h1 {
+            margin: 10px 0;
+        }
+
+        /* ====== Секції ====== */
+        section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+
+        /* ====== Списки ====== */
+        ul, ol {
+            margin-left: 30px;
+        }
+
+        /* ====== HTML entities блок ====== */
+        .entities {
+            background-color: #eee;
+            padding: 15px;
+            font-family: monospace;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ====== Меню ====== -->
+<nav>
+    <ul>
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#portfolio">Портфоліо</a></li>
+        <li><a href="#contacts">Контакти</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+
+    <!-- ====== Головна ====== -->
+    <section id="home">
+        <div class="header">
+            <!-- Заміни photo.jpg на своє фото -->
+            <img src="photo.jpg" alt="Фото" class="photo">
+            <h1>Шкляр Захарій</h1>
+            <p>Студент спеціальності «Інженерія програмного забезпечення»</p>
+        </div>
+    </section>
+
+    <!-- ====== Освіта ====== -->
+    <section>
+        <h2>Освіта</h2>
+        <ol>
+            <li>Фаховий коледж
+                <ul>
+                    <li>Спеціальність: ІПЗ</li>
+                    <li>Рік навчання: 2023 – теперішній час</li>
+                </ul>
+            </li>
+            <li>Самоосвіта в галузі програмування</li>
+        </ol>
+    </section>
+
+    <!-- ====== Навички ====== -->
+    <section>
+        <h2>Професійні навички</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Робота з Git</li>
+        </ul>
+    </section>
+
+    <!-- ====== Портфоліо ====== -->
+    
+<section id="portfolio">
+    <h2>Портфоліо</h2>
+
+    <div class="portfolio-buttons">
+        <a href="lab1/index.html">Лабораторна робота №1 (HTML)</a>
+        <a href="lab2/index.html">Лабораторна робота №2 (CSS)</a>
+        <a href="lab3/index.html">Лабораторна робота №3 (Flexbox)</a>
+        <a href="lab4/index.html">Лабораторна робота №4 (Grid)</a>
+    </div>
+</section>
+
+    <!-- ====== Контакти ====== -->
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Email: shkliar_zakharii&#64;gmail&#46;com</p>
+        <p>Телефон: &#43;38 &#40;0&#57;9&#41; 123&#45;45&#45;67</p>
+    </section>
+
+    <!-- ====== HTML entities ====== -->
+    <section>
+        <h2>HTML entities — базова структура HTML</h2>
+        <div class="entities">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+            &nbsp;&nbsp;&lt;head&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Назва сторінки&lt;/title&gt;<br>
+            &nbsp;&nbsp;&lt;/head&gt;<br>
+            &nbsp;&nbsp;&lt;body&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Вміст сторінки<br>
+            &nbsp;&nbsp;&lt;/body&gt;<br>
+            &lt;/html&gt;
+        </div>
+    </section>
+
+</div>
+
+</body>
+</html>
